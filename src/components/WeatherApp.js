@@ -21,12 +21,12 @@ const WeatherApp = () => {
 
   return (
     <div className="weather-container">
-      <div className="temperature" id="temperature">
+      <p className="temperature" id="temperature">
         Temperature: {weatherData.temperature}°C
-      </div>
-      <div id="conditions">
+      </p>
+      <p id="conditions">
         Conditions: {weatherData.conditions}
-      </div>
+      </p>
     </div>
   );
 };
