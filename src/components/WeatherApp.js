@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 const WeatherApp = () => {
   // Initial weather data
-  const initialWeatherData = { temperature: 25, conditions: "Sunny" };
-  const threshold = 20;
+  const initialWeatherData = { temperature: "25°C", conditions: "Sunny" };
+  const threshold = "20°C";
 
   // State to hold weather data
   const [weatherData, setWeatherData] = useState(initialWeatherData);
